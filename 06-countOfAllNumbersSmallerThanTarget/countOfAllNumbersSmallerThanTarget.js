@@ -1,5 +1,6 @@
-function countOfAllNumbersSmallerThanTarget(nums, target) {
-  // Insert code here;
+// Karim Nekzad
+let countOfAllNumbersSmallerThanTarget= (nums, target) => {
+  return nums.filter(number => number < target).length
 }
 
 // Do not edit this line;
