@@ -1,3 +1,4 @@
+//Karim Nekzad
 function greetFriend(name) {
   return 'Hello, ' + name + "!"
 }
