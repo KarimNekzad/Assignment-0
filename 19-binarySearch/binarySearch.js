@@ -17,7 +17,6 @@ class MySolution {
       return this.binarySearch(nums.slice(mid), target)
     }
   }
-  
 }
 
 // Do not edit this line;
