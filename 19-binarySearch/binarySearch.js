@@ -5,8 +5,8 @@ class MySolution {
   }
 
   binarySearch(nums, target) {
-    if(nums.length === 1 && nums[0] != target) {
-      return false
+    if(nums.length === 1) {
+      return nums[0] === target
     }
     let mid = Math.floor(nums.length/2) // If length = 11, return 5
     if(nums[mid] === target ) {
