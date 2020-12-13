@@ -1,4 +1,5 @@
 // Karim Nekzad
+
 let frequencyCounter = word => {
   let frequency = {}
   for (let i=0; i<word.length; i++) {
